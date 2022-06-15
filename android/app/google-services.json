@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "169308171750",
+    "project_id": "plant-disease-detection-fbfee",
+    "storage_bucket": "plant-disease-detection-fbfee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169308171750:android:cbf8cfc68c3ef7502dba27",
+        "android_client_info": {
+          "package_name": "com.example.diseaseDetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169308171750-tkls6mg04e09dnkoeq4vbbuslurmasqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_4J7bhLHHhVyR8BGK8BjA4SoQA7l_cYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169308171750-tkls6mg04e09dnkoeq4vbbuslurmasqa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169308171750:android:c8e6ac21ba8ea33e2dba27",
+        "android_client_info": {
+          "package_name": "com.example.plants_talk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169308171750-tkls6mg04e09dnkoeq4vbbuslurmasqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_4J7bhLHHhVyR8BGK8BjA4SoQA7l_cYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169308171750-tkls6mg04e09dnkoeq4vbbuslurmasqa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

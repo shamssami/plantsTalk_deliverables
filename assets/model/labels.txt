@@ -1,0 +1,11 @@
+Corn Healthy
+Grape Healthy
+Grape Black Rot
+Northern Corn Leaf Blight
+Potato Early Blight
+Potato Healthy
+Strawberry Healthy
+Strawberry Leaf Scorch
+Tomato Healthy
+Tomato Late Blight
+background
