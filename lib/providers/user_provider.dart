@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:plants_talk/resources/auth_methods.dart';
+import 'package:plants_talk/services/resources/auth_methods.dart';
 
 import 'package:plants_talk/model/user.dart';
 

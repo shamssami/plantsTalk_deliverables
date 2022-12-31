@@ -6,11 +6,9 @@ import 'package:plants_talk/utils/global_variable.dart';
 
 class ResponsiveLayout extends StatefulWidget {
   final Widget mobileScreenLayout;
-  final Widget webScreenLayout;
   const ResponsiveLayout({
     Key? key,
     required this.mobileScreenLayout,
-    required this.webScreenLayout,
   }) : super(key: key);
 
   @override
@@ -32,23 +30,17 @@ class _ResponsiveLayoutState extends State<ResponsiveLayout> {
 
   @override
   Widget build(BuildContext context) => MaterialApp(
-        localizationsDelegates: [
-          GlobalMaterialLocalizations.delegate,
-          GlobalWidgetsLocalizations.delegate,
-          GlobalCupertinoLocalizations.delegate,
-        ],
-        supportedLocales: [
-          const Locale('ar', 'AE'), // English, no country code
-          // Locale('es', ''), // Spanish, no country code
-        ],
-        title: "route",
-        home:
-     LayoutBuilder(builder: (context, constraints) {
-      if (constraints.maxWidth > webScreenSize) {
-        // 600 can be changed to 900 if you want to display tablet screen with mobile screen layout
-        return widget.webScreenLayout;
-      }
-      return widget.mobileScreenLayout;
-    }
-          ));
+          localizationsDelegates: [
+            GlobalMaterialLocalizations.delegate,
+            GlobalWidgetsLocalizations.delegate,
+            GlobalCupertinoLocalizations.delegate,
+          ],
+          supportedLocales: [
+            const Locale('ar', 'AE'), // English, no country code
+            // Locale('es', ''), // Spanish, no country code
+          ],
+          title: "route",
+          home: LayoutBuilder(builder: (context, constraints) {
+            return widget.mobileScreenLayout;
+          }));
 }

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../diagnosis_result/DesignResultPage.dart';
-import '../diagnosis_result/HealthResultPage.dart';
+import '../views/pages/diagnosis_result/DesignResultPage.dart';
+import '../views/pages/diagnosis_result/HealthResultPage.dart';
 
 class ResultPage {
   void resultPage(BuildContext context, String disease_name, String imagePath) {
