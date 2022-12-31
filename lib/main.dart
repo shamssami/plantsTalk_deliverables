@@ -8,7 +8,6 @@ import 'package:provider/provider.dart';
 import 'package:plants_talk/providers/user_provider.dart';
 import 'package:plants_talk/responsive/mobile_screen_layout.dart';
 import 'package:plants_talk/responsive/responsive_layout.dart';
-import 'package:plants_talk/responsive/web_screen_layout.dart';
 import 'package:plants_talk/views/pages/registeration/login_screen.dart';
 import 'package:plants_talk/utils/colors.dart';
 

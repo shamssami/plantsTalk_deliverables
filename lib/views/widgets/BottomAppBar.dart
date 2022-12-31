@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:plants_talk/responsive/mobile_screen_layout.dart';
 import 'package:plants_talk/responsive/responsive_layout.dart';
-import 'package:plants_talk/responsive/web_screen_layout.dart';
 import 'package:plants_talk/views/pages/plants_monitoring/monitor.dart';
 
 import 'package:plants_talk/views/pages/registeration/guidePage.dart';

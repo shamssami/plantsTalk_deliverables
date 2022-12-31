@@ -5,7 +5,6 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:plants_talk/services/resources/auth_methods.dart';
 import 'package:plants_talk/responsive/mobile_screen_layout.dart';
 import 'package:plants_talk/responsive/responsive_layout.dart';
-import 'package:plants_talk/responsive/web_screen_layout.dart';
 import 'package:plants_talk/views/pages/disease_detection/Profile.dart';
 import 'package:plants_talk/views/pages/registeration/login_screen.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
