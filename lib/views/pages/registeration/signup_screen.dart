@@ -97,7 +97,7 @@ class _SignupScreenState extends State<SignupScreen> {
           resizeToAvoidBottomInset: false,
           body: SafeArea(
             child: Container(
-              padding: const EdgeInsets.symmetric(horizontal: 15),
+              // padding: const EdgeInsets.symmetric(horizontal: 15),
               width: double.infinity,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -220,7 +220,7 @@ class _SignupScreenState extends State<SignupScreen> {
                   //   flex: 2,
                   // ),
                   Expanded(
-                      child: Row(
+                      child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Container(
