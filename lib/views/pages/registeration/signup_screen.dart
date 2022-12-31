@@ -96,7 +96,7 @@ class _SignupScreenState extends State<SignupScreen> {
           resizeToAvoidBottomInset: false,
           body: SafeArea(
             child: Container(
-              // padding: const EdgeInsets.symmetric(horizontal: 15),
+              padding: const EdgeInsets.all(10),
               width: double.infinity,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -194,14 +194,14 @@ class _SignupScreenState extends State<SignupScreen> {
                       child: !_isLoading
                           ? const Text(
                               'انشاء حساب',
-                              style: TextStyle(color: Colors.white),
+                              style: TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold),
                             )
                           : const CircularProgressIndicator(
                               color: primaryColor,
                             ),
-                      width: double.infinity,
                       alignment: Alignment.center,
-                      padding: const EdgeInsets.symmetric(vertical: 12),
                       decoration: const ShapeDecoration(
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.all(Radius.circular(4)),
@@ -214,10 +214,7 @@ class _SignupScreenState extends State<SignupScreen> {
                   const SizedBox(
                     height: 3,
                   ),
-                  // Flexible(
-                  //   child: Container(),
-                  //   flex: 2,
-                  // ),
+
                   Expanded(
                       child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -242,7 +239,7 @@ class _SignupScreenState extends State<SignupScreen> {
                               color: const Color(0xFF00695C),
                             ),
                           ),
-                          padding: const EdgeInsets.symmetric(vertical: 8),
+                          // padding: const EdgeInsets.symmetric(vertical: 8),
                         ),
                       ),
                     ],
